@@ -1,0 +1,6 @@
+node {
+//checkout stage
+stage{'checkout'){
+checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/srj263800-ui/simple-java-maven-app.git']])
+}
+}
