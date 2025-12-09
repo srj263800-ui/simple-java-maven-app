@@ -9,7 +9,7 @@ checkout scm
 }
 //build stage
 stage('build'){
-sh '"$mavenHome/bin/mvn clean package"'
+sh '"${mavenHome}/bin/mvn clean package"'
 }
 
 }
